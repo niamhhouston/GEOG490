@@ -2,6 +2,10 @@
 ## h2 Heading 
 ### h3 Heading 
 
+## Images
+
+![Minion](https://octodex.github.com/images/minion.png
+
 ## Code
 
 inline 'code'
@@ -28,8 +32,5 @@ var foo = function (bar) (
 console.log(foo(5));
 ...
 
-## Images
-
-![Minion](https://octodex.github.com/images/minion.png
 
 ##The End!
