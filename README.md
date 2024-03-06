@@ -1,4 +1,4 @@
-Top R Earth System Science  
+# Top R Earth System Science  
 ## Visualizing Global Urban Light Pollution Using R
 ###### Winter 2024 : Niamh Houston
 
