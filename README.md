@@ -35,12 +35,12 @@ console.log(foo(5));
 ...
 
 ## References 
-######[1] https://www.southamptontownny.gov/DocumentCenter/View/28311/Light-Pollution-Can-Put-Your-Health-at-Risk#:~:text=Circadian%20disruption%20may%20increase%20our,cancers%20and%20other%20health%20problems.
+[1] https://www.southamptontownny.gov/DocumentCenter/View/28311/Light-Pollution-Can-Put-Your-Health-at-Risk#:~:text=Circadian%20disruption%20may%20increase%20our,cancers%20and%20other%20health%20problems.
 
-######[2]https://www.indefenseofplants.com/blog/2018/8/6/light-pollution-and-plants#:~:text=The%20effects%20of%20artificial%20lighting,threat%20of%20frost%20is%20gone.
+[2]https://www.indefenseofplants.com/blog/2018/8/6/light-pollution-and-plants#:~:text=The%20effects%20of%20artificial%20lighting,threat%20of%20frost%20is%20gone.
 
-######[3]https://www.sciencedirect.com/science/article/abs/pii/S0169534722003329#:~:text=Light%20pollution%20can%20affect%20nocturnal,exposure%20to%20sky%20glow%20and
+[3]https://www.sciencedirect.com/science/article/abs/pii/S0169534722003329#:~:text=Light%20pollution%20can%20affect%20nocturnal,exposure%20to%20sky%20glow%20and
 
-######[4] https://darksky.org/resources/what-is-light-pollution/light-pollution-solutions/
+[4] https://darksky.org/resources/what-is-light-pollution/light-pollution-solutions/
 
 ##The End!
