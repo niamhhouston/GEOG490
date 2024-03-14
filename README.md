@@ -4,8 +4,6 @@
 
 Normalized Difference Vegetation Index (NDVI) is a remote sensing technique that quanifies and visualizes vegetation health. It works by measuring the difference between the reflectance of near-infrared (NIR) and visible red light. Healthy vegetation typically absorbes more visible light and reflects more NIR light, resulting in higher NDVI values. NDVIs can be particularly helpful for crop momotiring and management, identifying drought, land cover classification, ecosystem monitoring and climate change studies. An NDVI can be preformed using Rscript relatively simply using sattelite imagery. 
 
-![000010](https://github.com/niamhhouston/GEOG490/assets/162380093/eede7c88-c9bd-42a8-b5ad-b9a9ca093eda)
-
 K-Means classification is an unsupervised classification method that operates by dividing data into clusters based on similarity and proximity to calculated centroids. This classification method can be useful to classify land cover and preform change detrections. In the context of this analysis however, the K-menas plot aids in data comprehension. 
 
 <img width="895" alt="Screenshot 2024-03-13 at 9 39 28 PM" src="https://github.com/niamhhouston/GEOG490/assets/162380093/c276fe9b-3b97-4a3c-a96d-fabbbf4fb307">
@@ -29,11 +27,32 @@ The workflow, as follows, uses a geoTIF data file of Sentinel 2 imagery from the
 
 ### Raster Plots 
 <img width="229" alt="Screenshot 2024-03-13 at 11 19 27 PM" src="https://github.com/niamhhouston/GEOG490/assets/162380093/7e8d43f0-8f88-470a-b5d8-f9fe042a422d">
-
-
-
-
-
-#### Each raster layer from this output represent how much solar radiation is reflected at a particular wavelength bandwidth. 
+![000010](https://github.com/niamhhouston/GEOG490/assets/162380093/6715bd4a-f1cf-4510-881b-1b45958d0a3d)
+Each raster layer from this output represent how much solar radiation is reflected at a particular wavelength bandwidth. 
 
 ### NDVI and K-Means Classification 
+
+#### NDVI
+<img width="371" alt="Screenshot 2024-03-13 at 11 21 36 PM" src="https://github.com/niamhhouston/GEOG490/assets/162380093/4c30a5be-94d9-4549-b79e-7f99ce282832">
+<img width="587" alt="Screenshot 2024-03-13 at 11 22 34 PM" src="https://github.com/niamhhouston/GEOG490/assets/162380093/f3c2c139-b166-4c29-86b3-9b2683b98511">
+<img width="578" alt="Screenshot 2024-03-13 at 8 50 22 PM" src="https://github.com/niamhhouston/GEOG490/assets/162380093/5dffcefd-0224-438f-a66c-3aa7449f8d4a">
+
+#### Plotting a histogram 
+<img width="515" alt="Screenshot 2024-03-13 at 11 24 10 PM" src="https://github.com/niamhhouston/GEOG490/assets/162380093/005e7872-8afb-4c9b-9968-ce40523e1d46">
+<img width="660" alt="Screenshot 2024-03-13 at 11 24 37 PM" src="https://github.com/niamhhouston/GEOG490/assets/162380093/66cd5078-2f95-4609-89df-5f9f14769238">
+
+The histogram is strongly skewed twoards the high NDVI values which indicates a highly vegetated area. We can now mask any pixels less than 0.4 because they are less likely to be vegetated. 
+
+#### Masking Cells 
+<img width="738" alt="Screenshot 2024-03-13 at 11 27 16 PM" src="https://github.com/niamhhouston/GEOG490/assets/162380093/383ff543-3fcd-4f6e-9f5e-ef974c0899b1">
+<img width="663" alt="Screenshot 2024-03-13 at 11 27 40 PM" src="https://github.com/niamhhouston/GEOG490/assets/162380093/0f441a79-f3d6-4260-89d7-9622b8f015a5">
+
+#### K-Means Classification 
+<img width="719" alt="Screenshot 2024-03-13 at 11 29 52 PM" src="https://github.com/niamhhouston/GEOG490/assets/162380093/83d6cc61-c445-40fd-9c6c-3d1342fddb9f">
+
+#### Make dimensions same as NDVI
+<img width="403" alt="Screenshot 2024-03-13 at 11 31 25 PM" src="https://github.com/niamhhouston/GEOG490/assets/162380093/f8226b36-38c9-4675-917a-16cd58424af0">
+
+### Final Plot of NDVI and K-means 
+<img width="470" alt="Screenshot 2024-03-13 at 11 32 20 PM" src="https://github.com/niamhhouston/GEOG490/assets/162380093/514ddc5a-319f-4f22-9053-e05bc994cc42">
+<img width="895" alt="Screenshot 2024-03-13 at 9 39 28 PM" src="https://github.com/niamhhouston/GEOG490/assets/162380093/96c68471-70bc-4dd5-9906-a0e9ba6606a3">
