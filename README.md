@@ -16,27 +16,7 @@ K-Means classification is an unsupervised classification method that operates by
 The workflow, as follows, uses a geoTIF data file of Sentinel 2 imagery from the Loch Tay area of Scotland. The file used has been cropped and undergone an atmospheric correction to make it easier to import. 
 
 ### Loading Packages and Data 
-
-# Set the working directory (replace with your own file path)
-setwd("R:/GEOG493_593_25793_Winter2024/Student_Data/niamhh/R/FCC/CC-spatial-master")
-
-# Load packages
-# Install packages if needed
-# Example:install.packages("sp")
-
-install.packages("sp")
-install.packages("raster")
-install.packages("ggplot2")
-install.packages("viridis")
-install.packages("rasterVis")
-
-library(sp)
-library(raster)
-library(ggplot2)
-library(viridis)
-library(rasterVis)
-
-# Set the working directory (replace with your own file path) setwd("R:/GEOG493_593_25793_Winter2024/Student_Data/niamhh/R/FCC/CC-spatial-master") # Load packages # Install packages if needed # Example:install.packages("sp") install.packages("sp") install.packages("raster") install.packages("ggplot2") install.packages("viridis") install.packages("rasterVis") library(sp) library(raster) library(ggplot2) library(viridis) library(rasterVis)
+<img width="623" alt="Screenshot 2024-03-13 at 11 11 44 PM" src="https://github.com/niamhhouston/GEOG490/assets/162380093/11edb3f7-cb43-45d3-9a26-d96bd92012e3">
 
 ### Creating Individual Rasters for Each Band
 
