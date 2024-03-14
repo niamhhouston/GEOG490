@@ -17,6 +17,26 @@
 
 ### Loading Packages and Data 
 
+# Set the working directory (replace with your own file path)
+setwd("R:/GEOG493_593_25793_Winter2024/Student_Data/niamhh/R/FCC/CC-spatial-master")
+
+# Load packages
+
+[# Install packages if needed
+# Example:install.packages("sp")
+
+install.packages("sp")
+install.packages("raster")
+install.packages("ggplot2")
+install.packages("viridis")
+install.packages("rasterVis")
+
+library(sp)
+library(raster)
+library(ggplot2)
+library(viridis)
+library(rasterVis)]
+
 ### Creating Individual Rasters for Each Band
 
 ### Visualizing Spectral Bands 
