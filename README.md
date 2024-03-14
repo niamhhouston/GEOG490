@@ -27,7 +27,9 @@ The workflow, as follows, uses a geoTIF data file of Sentinel 2 imagery from the
 
 ### Raster Plots 
 <img width="229" alt="Screenshot 2024-03-13 at 11 19 27 PM" src="https://github.com/niamhhouston/GEOG490/assets/162380093/7e8d43f0-8f88-470a-b5d8-f9fe042a422d">
-![000010](https://github.com/niamhhouston/GEOG490/assets/162380093/6715bd4a-f1cf-4510-881b-1b45958d0a3d)
+
+<img width="1141" alt="Screenshot 2024-03-13 at 11 34 18 PM" src="https://github.com/niamhhouston/GEOG490/assets/162380093/89488ce3-6bf3-4cbe-96aa-b89ae17f3bfb">
+
 Each raster layer from this output represent how much solar radiation is reflected at a particular wavelength bandwidth. 
 
 ### NDVI and K-Means Classification 
