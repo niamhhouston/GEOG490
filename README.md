@@ -21,8 +21,7 @@
 setwd("R:/GEOG493_593_25793_Winter2024/Student_Data/niamhh/R/FCC/CC-spatial-master")
 
 # Load packages
-
-[# Install packages if needed
+# Install packages if needed
 # Example:install.packages("sp")
 
 install.packages("sp")
@@ -35,7 +34,7 @@ library(sp)
 library(raster)
 library(ggplot2)
 library(viridis)
-library(rasterVis)]
+library(rasterVis)
 
 ### Creating Individual Rasters for Each Band
 
