@@ -1,12 +1,16 @@
 # Creating a Normalized Difference Vegetation Index Using R
 ### Winter 2024 : Niamh Houston
 
+
 #### Normalized Difference Vegetation Index (NDVI) is a remote sensing technique that quanifies and visualizes vegetation health. It works by measuring the difference between the reflectance of near-infrared (NIR) and visiblered light. Healthy vegetation typically absorbes more visible light and reflects more NIR light, resulting in higher NDVI values. NDVIs can be particularly helpful for crop momotiring and management, identifying drought, land cover classification, ecosystem monitoring and climate change studies. An NDVI can be preformed using Rscript relatively simply using sattelite imagery. 
+
+#### 
 
 
 ![000010](https://github.com/niamhhouston/GEOG490/assets/162380093/eede7c88-c9bd-42a8-b5ad-b9a9ca093eda)
 
-<img width="578" alt="Screenshot 2024-03-13 at 8 50 22 PM" src="https://github.com/niamhhouston/GEOG490/assets/162380093/79fc7ced-7131-4004-b84f-6bbe7ff53554">
+![000012](https://github.com/niamhhouston/GEOG490/assets/162380093/f2a3d39f-1446-4228-b4c6-6a22b8e50369)
+
 
 
 ## Code
@@ -17,3 +21,9 @@
 ### Creating Individual Rasters for Each Band
 
 ### Visualizing Spectral Bands 
+
+### Visualizing Raster Plots 
+
+#### Each raster layer from this output represent how much solar radiation is reflected at a particular wavelength bandwidth. 
+
+### NDVI and K-Means Classification 
