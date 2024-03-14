@@ -8,7 +8,8 @@
 
 #### K-Means classification is an unsupervised classification method that operates by dividing data into clusters based on similarity and proximity to calculated centroids. This classification method can be useful to classify land cover and preform change detrections. In the context of this assignment however, the K-menas plot aids in data comprehension. 
 
-![000012](https://github.com/niamhhouston/GEOG490/assets/162380093/f2a3d39f-1446-4228-b4c6-6a22b8e50369)
+![000012](https://github.com/niamhhouston/GEOG490/assets/162380093/ba06f281-7f1a-4922-a5a9-54fb3c6f9932)
+
 
 
 
