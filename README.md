@@ -1,5 +1,5 @@
 # Creating a Normalized Difference Vegetation Index Using R
-# Winter 2024 : Niamh Houston
+### Winter 2024 : Niamh Houston
 
 
 ![000010](https://github.com/niamhhouston/GEOG490/assets/162380093/eede7c88-c9bd-42a8-b5ad-b9a9ca093eda)
