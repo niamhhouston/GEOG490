@@ -28,8 +28,10 @@ The workflow, as follows, uses a geoTIF data file of Sentinel 2 imagery from the
 
 Each raster layer from this output represent how much solar radiation is reflected at a particular wavelength bandwidth. 
 
-## NDVI and K-Means Classification 
+## Calculating NDVI  
 <img width="371" alt="Screenshot 2024-03-13 at 11 21 36 PM" src="https://github.com/niamhhouston/GEOG490/assets/162380093/4c30a5be-94d9-4549-b79e-7f99ce282832">
+
+## Plotting NDVI
 <img width="587" alt="Screenshot 2024-03-13 at 11 22 34 PM" src="https://github.com/niamhhouston/GEOG490/assets/162380093/f3c2c139-b166-4c29-86b3-9b2683b98511">
 <img width="578" alt="Screenshot 2024-03-13 at 8 50 22 PM" src="https://github.com/niamhhouston/GEOG490/assets/162380093/5dffcefd-0224-438f-a66c-3aa7449f8d4a">
 
