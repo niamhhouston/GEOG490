@@ -10,7 +10,8 @@ K-Means classification is an unsupervised classification method that operates by
 The workflow, as follows, uses a geoTIF data file of Sentinel 2 imagery from the Loch Tay area of Scotland. The file used has been cropped and undergone an atmospheric correction to make it easier to import. 
 
 ## Loading Packages 
-<img width="623" alt="Screenshot 2024-03-13 at 11 11 44 PM" src="https://github.com/niamhhouston/GEOG490/assets/162380093/11edb3f7-cb43-45d3-9a26-d96bd92012e3">
+<library(knitr)
+require(kableExtra)>
 
 ## Loading Data 
 <img width="271" alt="Screenshot 2024-03-13 at 11 14 20 PM" src="https://github.com/niamhhouston/GEOG490/assets/162380093/587462ed-5f40-4c2e-8036-f9b4043ec789">
