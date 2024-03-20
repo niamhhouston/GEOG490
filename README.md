@@ -8,7 +8,16 @@ Normalized Difference Vegetation Index (NDVI) is a remote sensing technique that
 
 K-Means classification is an unsupervised classification method that operates by dividing data into clusters based on similarity and proximity to calculated centroids. This classification method can be useful to classify land cover and preform change detrections. In the context of this analysis however, the K-menas plot aids in data comprehension. 
 
-The workflow, as follows, uses a geoTIF data file of Sentinel 2 imagery from the Loch Tay area of Scotland. The file used has been cropped and undergone an atmospheric correction to make it easier to import. 
+The workflow, as follows, uses a geoTIF data file of Sentinel 2 imagery from the Loch Tay area of Scotland (taycrop.tif). The file used has been cropped and undergone an atmospheric correction to make it easier to import. To replicate this analysis, download taycrop.pdf from the repository, note thee file path you download it to and follow the code workflow from NDVI.HTML linked in the repository or from [Uploa<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>URL</key>
+	<string>cid:f_ltrzugyl0</string>
+</dict>
+</plist>
+ding NDVI3.pdf.inetloc…]()
+
 
 ### Access Full Code Workflow: 
 [NDVI3.pdf](https://github.com/niamhhouston/GEOG490/files/14609665/NDVI3.pdf)
