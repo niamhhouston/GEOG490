@@ -12,3 +12,4 @@ The workflow, in RStudio, uses a geoTIF data file of Sentinel 2 imagery from the
 [NDVI3.pdf](https://github.com/niamhhouston/GEOG490/files/14609665/NDVI3.pdf). 
 
 ### Code 
+![1711069085878-de133e1e-a314-47e1-bc2c-49f93480043e_1](https://github.com/niamhhouston/GEOG490/assets/162380093/50d3b256-288a-499c-9748-7773ab7b5c62)
